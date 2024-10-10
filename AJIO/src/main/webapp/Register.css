@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+    height: 600px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11%;
+    margin-top: 3%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.634);
+    border-radius: 10px;
+}
+.left_block{
+    height: 100%;
+    width: 52.64%;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px 0px 0px 10px;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.591),rgba(0, 0, 0, 0.591)),url(./images/pexels-scottwebb-1029611.jpg);
+}
+.right_block{
+    height: 100%;
+    width: 100%;
+    float: right;
+    background-color: snow;
+    border-radius: 0px 10px 10px 0px;
+}
+.left_block h1,p{
+    color: aliceblue;
+}
+.left_block h1{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 25px;
+    font-size: 30px;
+}
+.left_block p{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 25px;
+    font-size: 15px;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 10px;
+    position: absolute;
+}
+.left_block h3{
+    position: absolute;
+    color: aliceblue;
+    margin-top: 28px;
+    font-size: 30px;
+    margin-left: 70px;
+}
+button{
+    background-color: red;
+    color: aliceblue;
+    border: 2px solid transparent;
+    position: absolute;
+    margin-top: 26%;
+    /* margin-left: 95px; */
+    height: 40px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 600;
+}
+button:hover{
+    filter: brightness(80%);
+    cursor: pointer;
+}
+.right_block h1{
+    color: rgb(192, 13, 13);
+    position: absolute;
+    text-decoration:underline;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.right_block p:nth-child(2){
+    color: rgb(57, 57, 57);
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 23px;
+    font-size: 20px;
+    font-weight: 600;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid rgba(155, 155, 155, 0.795);
+    padding-left: 12px;
+}
+#fname{
+    position: absolute;
+    margin-top: 105px;
+    height: 40px;
+    width: 280px;
+    margin-left: 23px;
+}
+#fname::placeholder{
+    font-size: 15px;
+}
+.right_block p:nth-child(4){
+    color: rgb(57, 57, 57);
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 23px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#email{
+    position: absolute;
+    margin-top: 200px;
+    height: 40px;
+    width: 280px;
+    margin-left: 23px;
+}
+#email::placeholder{
+    font-size: 15px;
+}
+.right_block p:nth-child(6){
+    color: rgb(57, 57, 57);
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 23px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#city{
+    position: absolute;
+    margin-top: 300px;
+    height: 40px;
+    width: 280px;
+    margin-left: 23px;
+}
+#city::placeholder{
+    font-size: 15px;
+}
+.right_block p:nth-child(8){
+    color: rgb(57, 57, 57);
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 23px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#address{
+    position: absolute;
+    margin-top: 395px;
+    height: 80px;
+    width: 280px;
+    margin-left: 23px;
+}
+#address::placeholder{
+    font-size: 15px;
+}
+.right_block p:nth-child(10){
+    color: rgb(57, 57, 57);
+    position: absolute;
+    margin-top: 68px;
+    margin-left: 380px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#lname{
+    position: absolute;
+    margin-top: 103px;
+    height: 40px;
+    width: 280px;
+    margin-left: 380px;
+}
+#lname::placeholder{
+    font-size: 15px;
+}
+.right_block p:nth-child(12){
+    color: rgb(57, 57, 57);
+    position: absolute;
+    margin-top: 163px;
+    margin-left: 380px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#password{
+    position: absolute;
+    margin-top: 198px;
+    height: 40px;
+    width: 280px;
+    margin-left: 380px;
+}
+#password::placeholder{
+    font-size: 15px;
+}
+#submit{
+    margin-top: 516px;
+    color: aliceblue;
+    background-color: red;
+    position: absolute;
+    margin-left: 85px;
+    height: 40px;
+    width: 600px;
+    padding-left: 0;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+}
+#submit:hover{
+    transition: .2s ease-in-out;
+    transform: translateX(10px);
+    cursor: pointer;
+    background-color: rgb(35, 35, 35);
+}

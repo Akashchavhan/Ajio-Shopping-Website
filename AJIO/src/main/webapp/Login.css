@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+.main{
+    height: 600px;
+    width: 1000px;
+    background-color: white;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 250px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.634);
+}
+.left-block{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+.right-block{
+    height: 100%;
+    width: 30%;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.401),rgba(0, 0, 0, 0.501)),url(./images/pexels-jose-alvarez-55954477-7872850.jpg);
+    float: right;
+    background-size: cover;
+    margin-left: 20%;
+    text-align: center;
+}
+.right-block h1{
+    color: aliceblue;
+    margin-top: 16%;
+    font-weight: 600;
+    font-size: 33px;
+}
+.right-block p{
+    margin-top: 6%;
+    color: aliceblue;
+    font-weight: 400;
+}
+.right-block a{
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    color: aliceblue;
+    padding-top: 5px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: -3.73%;
+    font-weight: 600;
+}
+.right-block a:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+.left-block h1{
+    color: rgb(60, 60, 60);
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 3%;
+    font-size: 38px;
+}
+.left-block p:nth-child(2){
+    color: rgb(74, 74, 74);
+    margin-left: 19%;
+    margin-top: 8%;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+}
+#email{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -4.5%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid rgb(144, 144, 144);
+    height: 30px;
+    width: 350px;
+    padding-left: 10px;
+}
+.left-block p:nth-child(4){
+    color: rgb(74, 74, 74);
+    margin-left: 20.16%;
+    margin-top: 14%;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+}
+#password{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: -4.5%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid rgb(144, 144, 144);
+    height: 30px;
+    width: 350px;
+    padding-left: 10px;
+}
+#submit{
+    color: aliceblue;
+    background-image: linear-gradient(to right,rgb(125, 21, 216),rgb(187, 14, 206));
+    height: 35px;
+    width: 270px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 21%;
+    margin-left: -1.82%;
+    font-size: 15px;
+    filter: brightness(100%);
+}
+#submit:hover{
+    cursor: pointer;
+    filter: brightness(120%);
+}
+.left-block p:nth-child(7){
+    margin-top: 24.4%;
+    margin-left: 19.7%;
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+}
+img{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    margin-top: 28%;
+}
+#facebook{
+    margin-left: 1.2%;
+}
+#twitter{
+    margin-left: 4.2%;
+}
+#linkedin{
+    margin-left: 7.2%;
+}
+#social{
+    margin-left: 10.2%;
+}
+#tag{
+    font-family: 'the grinch';
+    color: aliceblue;
+    font-size: 35px;
+    margin-top: 14%;
+}
+img:hover{
+    filter: brightness(80%);
+    cursor: pointer;
+}
