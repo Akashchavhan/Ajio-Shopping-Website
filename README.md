@@ -1,4 +1,4 @@
-Ajio Shopping Website
+![Screenshot 2024-10-11 102052](https://github.com/user-attachments/assets/fad0278d-525a-4e15-bee6-49aa6f868de2)Ajio Shopping Website
 Welcome to the Ajio Shopping Website repository! This project is a fully functional e-commerce platform where users can browse products, sign up, sign in, and manage their shopping cart.
 
 Features
@@ -47,9 +47,9 @@ Home page with image slider
 
 ![Screenshot 2024-10-11 093737](https://github.com/user-attachments/assets/a920fc50-7bf1-494b-b34c-f475dd659333)
 
-![Screenshot 2024-10-11 094318](https://github.com/user-attachments/assets/c4d78e3c-6a17-4aa8-8b29-680a975ef93d)
+![Screenshot 2024-10-11 102052](https://github.com/user-attachments/assets/3d6bb25f-ff41-401c-9bf2-05ab549fa0ba)
 
-![Screenshot 2024-10-11 094337](https://github.com/user-attachments/assets/4587c8a2-5d47-4530-a602-a3de4e562cb8)
+![Screenshot 2024-10-11 102107](https://github.com/user-attachments/assets/3f74e9dc-1ce1-426d-8f78-3bbd1ec2a727)
 
 Sign in page
 
